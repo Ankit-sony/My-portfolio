@@ -72,7 +72,13 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
-
+.namaste {
+    animation: rotation 1s infinite linear;
+  }
+  
+  @keyframes rotation {
+   50% {transform: rotate(45deg);}
+  }
 
 /* ---------------------------About------------------ */
 
