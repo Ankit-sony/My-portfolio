@@ -11,6 +11,7 @@
             event.currentTarget.classList.add("active");
             document.getElementById(tabname).classList.add("active-tab");
         }
+        // ksfdhksajhf
     
         var sidemenu = document.getElementById("sidemenu");
         function openmenu(){
