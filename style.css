@@ -270,7 +270,10 @@ nav ul li a:hover::after{
 }
 
 /* -----------------------Contact---------------------- */
-
+p a{
+    color: white;
+    text-decoration: none;
+}
 .contact-left{
     flex-basis: 35%
 }
