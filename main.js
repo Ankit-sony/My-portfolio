@@ -11,7 +11,7 @@
             event.currentTarget.classList.add("active");
             document.getElementById(tabname).classList.add("active-tab");
         }
-        // ksfdhksajhf
+    
     
         var sidemenu = document.getElementById("sidemenu");
         function openmenu(){
@@ -29,7 +29,7 @@
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
-                msg.innerHTML = "Message sent Successfully"
+                msg.innerHTML = "Thank You For your response"
                 setTimeout(function(){
                     msg.innerHTML = ""
                 },5000)
