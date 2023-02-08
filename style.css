@@ -76,6 +76,7 @@ nav ul li a:hover::after{
 .header-text h1 span:hover{
     transform: translateY(-5px);
     color: #ababab;
+    cursor: pointer;
 }
 .namaste {
     animation: rotation 1s infinite linear;
