@@ -11,6 +11,11 @@ html{
 body{
     background: #080808;
     color: white;
+    background-color: #000000;
+opacity: 1;
+background-image:  linear-gradient(30deg, #262626 12%, transparent 12.5%, transparent 87%, #262626 87.5%, #262626), linear-gradient(150deg, #262626 12%, transparent 12.5%, transparent 87%, #262626 87.5%, #262626), linear-gradient(30deg, #262626 12%, transparent 12.5%, transparent 87%, #262626 87.5%, #262626), linear-gradient(150deg, #262626 12%, transparent 12.5%, transparent 87%, #262626 87.5%, #262626), linear-gradient(60deg, #26262677 25%, transparent 25.5%, transparent 75%, #26262677 75%, #26262677), linear-gradient(60deg, #26262677 25%, transparent 25.5%, transparent 75%, #26262677 75%, #26262677);
+background-size: 10px 18px;
+background-position: 0 0, 0 0, 5px 9px, 5px 9px, 0 0, 5px 9px;
 }
 #header{
     width: 100%;
@@ -62,7 +67,7 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 20%;
+    margin-top: 15%;
     font-size: 30px;
 }
 .header-text h1{
@@ -275,10 +280,12 @@ nav ul li a:hover::after{
     color: #fff;
     transition: background 0.5s;
     transition: transform 0.5s;
+    background: #ff004f;
 }
 .btn:hover{
-    background: #ff004f;
+    background: transparent;
     transform: translateY(-5px);
+    
 }
 
 /* -----------------------Contact---------------------- */
@@ -337,10 +344,13 @@ p a{
     display: inline-block;
     background: #ff004f;
 }
-
+.btn.btn1:hover{
+    background: transparent;
+}
 .contact-right form{
     width: 100%;
 }
+
 form input, form textarea{
     width: 100%;
     border: 0;
@@ -352,6 +362,19 @@ form input, form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
+.hover{
+    transition: transform 0.5s;
+    color:#ff004f;
+}
+.hover:hover{
+    transform: scale(1.1);
+    background: transparent;
+    outline-style: groove;
+    color: #ff004f;
+}
+
+
+
 form .btn1{
     padding: 14px 60px;
     font-size: 18px;
@@ -362,7 +385,7 @@ form .btn1{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: transparent;
     margin-top: 20px;
 
 }
