@@ -74,7 +74,7 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .header-text h1 span:hover{
-    transform: translateY(-15px);
+    transform: scale(1.1);
     color: #ababab;
     cursor: pointer;
 }
