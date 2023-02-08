@@ -74,7 +74,7 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .header-text h1 span:hover{
-    transform: translateY(-5px);
+    transform: translateY(-15px);
     color: #ababab;
     cursor: pointer;
 }
@@ -103,6 +103,9 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+}
+.about-col-1 img:hover{
+    transform: scale(1.1);
 }
 .about-col-2{
     flex-basis: 60%;
