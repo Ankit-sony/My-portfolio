@@ -71,10 +71,11 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color: #ff004f;
-    transition: transform 0.2s;
+    transition: transform 0.5s;
 }
 .header-text h1 span:hover{
     transform: translateY(-5px);
+    color: #ababab;
 }
 .namaste {
     animation: rotation 1s infinite linear;
@@ -267,10 +268,11 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
-    transition: background 0.5s;
+    transition: background 0.5s trasnsform 0.5s;
 }
 .btn:hover{
     background: #ff004f;
+    transform: translateY(-5px);
 }
 
 /* -----------------------Contact---------------------- */
