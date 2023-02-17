@@ -378,6 +378,7 @@ p a{
 }
 .contact-right form{
     width: 100%;
+    color: transparent;
 }
 
 form input, form textarea{
@@ -398,7 +399,7 @@ form input, form textarea{
 .hover:hover{
     transform: scale(1.1);
     background: transparent;
-    outline-style: groove;
+    outline-style: double;
     color: #ff004f;
 }
 
