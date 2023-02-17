@@ -84,11 +84,11 @@ nav ul li a:hover::after{
     cursor: pointer;
 }
 .namaste {
-    animation: rotation 1s infinite linear;
+    animation: rotation 2s infinite linear;
   }
   
   @keyframes rotation {
-   50% {transform: rotate(45deg);}
+   50% {transform: rotate(-35deg);}
   }
 
 /* ---------------------------About------------------ */
@@ -387,7 +387,7 @@ form input, form textarea{
     background: #262626;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: transparent;
     font-size: 18px;
     border-radius: 6px;
 }
