@@ -102,7 +102,6 @@ nav ul li a:hover::after{
 .row{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
 }
 .about-col-1{
