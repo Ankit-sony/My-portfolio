@@ -32,7 +32,7 @@
                 msg.innerHTML = "Thank You For your response"
                 setTimeout(function(){
                     msg.innerHTML = ""
-                },5000)
+                },1000)
                 form.reset() 
             })
             .catch(error => console.error('Error!', error.message))
